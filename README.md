@@ -1,0 +1,2 @@
+# Unexpected Empty Array Return in MATLAB Function
+This repository demonstrates a common error in MATLAB where a function unexpectedly returns an empty array [] instead of a scalar zero or NaN when a conditional statement isn't met. This can lead to problems in further computations, resulting in errors or unexpected behavior. The solution involves explicitly handling the case where the conditional statement evaluates to false.
